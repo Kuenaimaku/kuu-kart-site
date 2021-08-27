@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+$lavender: hsl(275, 20%, 50%);
+$lavender-dark: hsl(275, 20%, 40%);
+$primary: $lavender;
+$scheme-main: hsl(275, 5%, 15%);
+$scheme-main-bis:hsl(275, 5%, 12%);
+$scheme-main-ter:hsl(275, 5%, 15%);;
+$body-background-color: hsl(275, 5%, 10%);
+
+$scheme-invert: hsl(275, 5%, 00%);
+
+$text: hsl(0, 0%, 80%);
+$text-strong: hsl(0, 0%, 90%);
+$background: hsl(275, 5%, 10%);
+$body-color: hsl(0, 0%, 80%);
+
+@import "../node_modules/bulma/sass/utilities/_all";
+@import "../node_modules/bulma/sass/base/_all";
+@import "../node_modules/bulma/sass/elements/_all";
+@import "../node_modules/bulma/sass/components/_all";
+@import "../node_modules/bulma/sass/grid/_all";
+@import "../node_modules/bulma/sass/layout/_all";
